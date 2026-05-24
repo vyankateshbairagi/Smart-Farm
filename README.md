@@ -208,15 +208,15 @@ Add the UI screenshots to the repository at `farm-frontend/docs/screenshots/` an
 
 1. Login screen
 
-![Login screen](farm-frontend/docs/screenshots/login.png)
+![Login screen](farm-frontendscreenshots/login.png)
 
 2. Register screen
 
-![Register screen](farm-frontend/docs/screenshots/register.png)
+![Register screen](farm-frontend/screenshots/register.png)
 
 3. Dashboard overview
 
-![Dashboard overview](farm-frontend/docs/screenshots/dashboard.png)
+![Dashboard overview](farm-frontend/screenshots/dashboard.png)
 
 Replace the placeholder files above with the actual PNGs (or update the paths) to render the images in this README.
 
