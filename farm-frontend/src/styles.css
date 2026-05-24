@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+
+	body {
+		@apply min-h-screen bg-slate-950 text-slate-100 antialiased;
+		background-image:
+			radial-gradient(circle at top left, rgb(217, 242, 57), transparent 28%),
+			radial-gradient(circle at top right, rgba(231, 163, 46, 0.18), transparent 22%),
+			linear-gradient(180deg, #ffffff 0%, #ffffff 52%, #e8e86a 100%);
+	}
+
+	a {
+		@apply transition-colors duration-200;
+	}
+
+	button,
+	input,
+	select {
+		@apply transition duration-200;
+	}
+}
