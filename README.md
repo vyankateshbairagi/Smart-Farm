@@ -5,6 +5,20 @@ Smart Farm is a full stack web application for farm management with authenticati
 - Backend: Node.js, Express, MongoDB (Mongoose), JWT auth
 - Frontend: React + Vite, Axios, React Router, Recharts
 
+  ## Screenshots
+
+1. Login screen
+
+![Login screen](farm-frontend/screenshots/login.png)
+
+2. Register screen
+
+![Register screen](farm-frontend/screenshots/register.png)
+
+3. Dashboard overview
+
+![Dashboard overview](farm-frontend/screenshots/dashboard.png)
+
 ## Project Structure
 
 ```text
@@ -201,24 +215,6 @@ Auth response includes token:
   }
 }
 ```
-
-## Screenshots
-
-Add the UI screenshots to the repository at `farm-frontend/docs/screenshots/` and include them here.
-
-1. Login screen
-
-![Login screen](farm-frontendscreenshots/login.png)
-
-2. Register screen
-
-![Register screen](farm-frontend/screenshots/register.png)
-
-3. Dashboard overview
-
-![Dashboard overview](farm-frontend/screenshots/dashboard.png)
-
-Replace the placeholder files above with the actual PNGs (or update the paths) to render the images in this README.
 
 ### Auth Header for Protected Routes
 
